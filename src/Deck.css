@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+
+.Card-deck-area {
+  margin-top: 4rem;
+}
+.Deck-title {
+  text-transform: uppercase;
+  font-size: 2.1rem;
+  font-family: "Roboto", sans-serif;
+}
+.subtitle {
+  letter-spacing: 3px;
+  font-size: 1.1rem;
+}
+.btn {
+  background-color: purple;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
