@@ -40,9 +40,7 @@ export default class Deck extends Component {
     }
   }
   render() {
-    const cards = this.state.drawn.map((c) => (
-      <Card key={c.id} name={c.name} image={c.image} />
-    ));
+    const cards = this.getCards();
     return (
       <div>
         <h1 className="Deck-title">♦️ Card Dealer ♦️</h1>
@@ -58,5 +56,11 @@ export default class Deck extends Component {
         <div className="Card-deck-area">{cards}</div>
       </div>
     );
+  }
+
+  getCards() {
+    return this.state.drawn.map((c) => (
+      <Card key={c.id} name={c.name} image={c.image} />
+    ));
   }
 }
