@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Live Preview
 https://gallant-brahmagupta-23279c.netlify.app/
+&&
+https://deck-of-cards-2uuggpsmj-sumanislam.vercel.app/
 
 ## Available Scripts
 
